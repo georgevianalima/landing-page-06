@@ -305,60 +305,169 @@
       padding: 6px 10px;
     }
   }
-#container-escolha{
+#container-icons{
     display: flex;
-    height: 70vh;
     justify-content: center;
     margin-top: 10vh;
+}
+#courses-esquerda{
+    font-weight:800;
+    width: 30vw;
+    font-family: "Raleway", serif;
+}
+#div-choose{
+    margin-top: 5vh;
+}
+#why-amarelo{
+    color: rgb(242, 192, 10);
+    font-size: 8pt;
+    font-weight:800;
+}
+#best{
+    margin-top: 0.5vh;
+    font-size: 23pt;
+    margin-bottom: 1.5vh;
+    width: 28vw;
+}
+#lorem-choose{
+    font-size: 12px;
+    text-align: justify;
+    color: #a6a6a6ff;
+    font-weight: 600;
+    line-height: 18px;
+    width: 30vw;
+}
+.descricao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 17vh;
+}
+/* #descricao{    
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+} */
+.descricao i{
+    color: #f2be00;
+    font-size: 30px;    
+}
+#descricao-1{
+    height: 12vh;
+}
+#descricao-1 h6{
+    font-family: "Raleway", serif;
+    font-weight: 700;
+    color: #a6a6a6ff;
+    width: 14vw;
+}
+#descricao-2{
+    height: 12vh;
+}
+#descricao-2 h6{
+    font-family: "Raleway", serif;
+    font-weight: 700;
+    color: #a6a6a6ff;
+    width: 14vw;
+}
+#descricao-3{
+    height: 12vh;
+}
+#descricao-3 h6{
+    font-family: "Raleway", serif;
+    font-weight: 700;
+    color: #a6a6a6ff;
+    width: 14vw;
+}
+#descricao-4{
+    height: 12vh;
+}
+#descricao-4 h6{
+    font-family: "Raleway", serif;
+    font-weight: 700;
+    color: #a6a6a6ff;
+    width: 14vw;
+}
+.icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 4vh;
+}
+.icons i{
+    margin-right: 2vh;
+}
+#courses-direita{
+    margin-left: 3vw;
 }
 #img-pequena{
     position: absolute;
     top:127%;
-    right: 14.3%;
+    right: 17.4%;
     width: 9vw;
 }
 #borda-img-pequena{
     margin-top: 10vh;
 }
-#img-grande{
-    width: 30vw;
-}
 #borda-img-pequena img{
     border: 12px solid white;
 }
-#courses-esquerda{
-    font-weight: bolder;
-    width: 40%;
-    height: 70vh !important;
+#img-grande{
+    width: 30vw;
+    height: 50vh;
 }
-#amarelo{
-    color: rgb(242, 192, 10);
-    height: 3vh;
-}
-#driving-text{
-    height: 4vh;
-    margin-bottom: 10vh;
-}
-#courses-esquerda{
-    height: 40vh;
-}
-#descricao{    
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    margin-top: 10vh;
-
-}
-#descricao i{
-    color: #f2be00;
-    font-size: 30px;    
-}
-.descricao-itens{
-    height: 10vh;
-    margin-bottom: 10vh;
-}
-.oi{
+#container-team{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+#topo{
+    text-align: center;
+}
+#meet-amarelo{
+    color: rgb(242, 192, 10);
+    font-size: 8pt;
+    font-family: "Raleway", serif;
+    font-weight:800;
+}
+#great{
+    font-size: 23pt;
+    font-weight: 800;
+    font-family: "Raleway", serif;
+    margin-top: 1px;
+}
+#great2{
+    font-size: 23pt;
+    font-weight: 800;
+    font-family: "Raleway", serif;
+    margin-top: -28px;
+}
+#fotos-time{
+    display: flex;
+    justify-content: center;
+}
+#fotos-time img{
+    width: 14vw;
+}
+.teams{
+    margin: 10px;
+    text-align: center;
+    background-color: #f2f5f7ff;
+    font-family: "Raleway", serif;
+}
+.names{
+   font-weight: 700; 
+}
+.trainers{
+    font-size: 13px;
+    color: #8d8f8fff;
+    font-weight: 500;
+}
+#menu-inferior{
+    display: flex;
+    flex-direction: row;
+    background-color: #0c2b4aff;
     align-items: center;
-  
+    justify-content: space-around;
 }

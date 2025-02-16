@@ -466,6 +466,7 @@
 }
 #menu-inferior{
     background-color: #0c2b4aff;
+    height: 45vh;
 }
 #menus{
     display: flex;
@@ -475,26 +476,80 @@
     font-family: "Raleway", serif;
     margin-left: 13vw;
     margin-right: 14vw;
+    margin-top: 30vh;
+    
+}
+#navegacao ul {
+  list-style: none;
+  padding: 0;
+}
+#quick-links ul {
+  list-style: none;
+  padding: 0;
+}
+#popular-links ul {
+  list-style: none;
+  padding: 0;
+}
+#newsletter ul {
+  list-style: none;
+  padding: 0;
+}
+#quick-links li,
+#popular-links li{
+  height: 28px;
+  font-size: 11px;
+  margin-bottom: 0px;
+}
+#icone-carro i{
+    font-size: 25px;
+    margin-right: 8px;
+    color: white;
+}
+#icone-carro h5{
+  font-weight: 700;
+  font-size: 22px;
+  color: #f2be00;
+}
+#newsletter input{
+  margin-top: 8px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  height: 5vh;
+}
+#newsletter button{
+  border: none;
+  height: 5.3vh;
+  background-color: #f2be00ff;
+  color: white;
+}
+#container-baixo{
+  background-color: #092138ff;
+  color: white;
+  height: 10vh;
+  font-family: "Raleway", serif;
+}
+#baixo{
+  display: flex;
+  align-items:first baseline;
+  justify-content: space-around;
+  padding: 0;
+  padding-top: 10px;
+}
+#baixo-esquerdo{
+  font-size: 12px;
+  font-weight: 200;
+}
+#baixo-esquerdo a{
+  text-decoration: none;
+  color: #967f17ff;
+  font-weight: 600;
 
 }
-.titulo{
-    font-weight: 800;
-}
-#carro-inferior{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-#carro-inferior i{
-    font-size: 27px;
-}
-#carro-inferior p{
-    color: #f2be00;
-    font-weight: 700;
-    font-size: 27px;
-    margin-left: 10px;
-}
-.icones-inferior{
-    display: flex;
-    align-items: center;
+#baixo-direita p{
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 200;
+
 }
